@@ -1,0 +1,16 @@
+{
+    "name": "Inga/bankas",
+    "description": "Objektyvus Bankas",
+    "type": "no",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inga\\Bankas\\": "app/",
+            "Inga\\Bankas\\Login\\": "app/login",
+            "Inga\\Bankas\\Controllers\\" : "app/controllers",
+            "App\\DB\\" : "app/"
+            
+        }
+    }
+}
